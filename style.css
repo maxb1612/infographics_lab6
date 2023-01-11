@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-VariableFont_wght.ttf");
+}
+
+
+text, h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(251, 251, 251);
+  fill: rgb(251, 251, 251);;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.bar {
+  fill: rgb(171, 100, 237);
+  ;
+}
+
+.bar:hover {
+  fill: rgb(192, 255, 195);
+}
+
+.axis--x path {
+  display: none;
+}
+
+.axis--y path{
+  stroke: rgb(251, 251, 251);
+}
+
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: rgb(7, 39, 68);
+}
+
+.container {
+  height: 85%;
+  padding: 0;
+}
+
+#bar-chart {
+  width: 100%;
+  height: 100%;
+} 
